@@ -1,0 +1,36 @@
+{
+    "customer": {
+        "name": "James Bond",
+        "phone": "(555) 555-1212"
+    }, 
+    "customer_order_id": "99250207-8683267", 
+    "menu_items": [
+        {
+            "id": 12,
+            "item_name": "Pepperoni Pizza", 
+            "price": 17.0, 
+            "quantity": 1
+        }, 
+        {
+            "id": 54,
+            "item_name": "Garlic Knots", 
+            "price": 2.99, 
+            "quantity": 1
+        },
+        {
+            "id": 123,
+            "item_name": "Mozzarella Sticks", 
+            "price": 6.49, 
+            "quantity": 1
+        }, 
+        {
+            "id": 434,
+            "item_name": "Wings", 
+            "price": 8.99, 
+            "quantity": 1
+        }
+    ],
+    "restaurant": {
+        "restaurant_name": "Food Is Tasty"
+    }
+}
