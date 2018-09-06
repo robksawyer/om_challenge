@@ -1,8 +1,9 @@
 # Ordermark Challenge
 # Parse input HTML file and respond with formatted JSON
+import os
+import re
 from bs4 import BeautifulSoup
 from flask import jsonify, json
-import re
 
 def parse():
     inputHTML = """
