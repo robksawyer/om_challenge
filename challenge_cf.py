@@ -1,4 +1,5 @@
 # Ordermark Challenge
+# Google Cloud Function Version
 # Parse input HTML file and respond with formatted JSON
 import os
 import re
@@ -6,6 +7,7 @@ from bs4 import BeautifulSoup
 from flask import jsonify, json
 
 def parse(request):
+    # HTML to parse
     inputHTML = """
     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 
@@ -174,6 +176,7 @@ def parse(request):
     Content-Type: application/json; name="parsing_o
     """
 
+    # Initialize BeautifulSoup and parse HTML
     soup = BeautifulSoup(inputHTML, "html5lib")
 
     # DOM parsing variables
